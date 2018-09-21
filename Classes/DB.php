@@ -6,10 +6,10 @@ class DB
     private static $instance = null;
 
     //login credentials:
-    private $servername = "localhost";
+    private $servername = "192.168.64.2";
     private $username = "root";
-    private $password = "root";
-    private $database = "sjonframework";
+    private $password = "";
+    private $database = "myspace";
 
     private $existingTables = [];
 
